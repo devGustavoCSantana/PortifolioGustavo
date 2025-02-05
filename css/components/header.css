@@ -17,6 +17,10 @@ header .header__left p {
   max-width: 50rem;
 }
 
+header .header__left .btn {
+  margin-right: 1rem; /* Espaçamento entre os botões */
+}
+
 header .header__right .header__image {
   position: relative;
   line-height: 0;
@@ -46,6 +50,17 @@ header .header__right .header__image .background {
   top: -4rem;
   right: -2.5rem;
   z-index: -1;
+}
+
+header .header__left .btn-secondary {
+  background-color: #4CAF50; /* Cor do botão "Baixar CV" */
+  border-color: #4CAF50;
+  color: white;
+}
+
+header .header__left .btn-secondary:hover {
+  background-color: #45a049;
+  border-color: #45a049;
 }
 
 @media only screen and (max-width: 768px) {
